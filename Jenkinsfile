@@ -36,7 +36,7 @@ pipeline {
             steps {
                 script {
                     withCredentials([file(credentialsId: 'kubeconfig', variable: 'KUBECONFIG')]) {
-                        sh "helm upgrade --install myflaskapp ./flask-app --set image.tag=${BUILD_NUMBER} --namespace ${KUBERNETES_NAMESPACE}"
+                        sh "helm upgrade --install flask-curd-app ./flask-app --set image.tag=${BUILD_NUMBER} --namespace ${KUBERNETES_NAMESPACE}"
                     }
                 }
             }
