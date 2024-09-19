@@ -1,0 +1,5 @@
+apiVersion: v2
+name: snake-game
+description: A Helm chart for Snake Game application
+version: 0.1.0
+appVersion: "1.0.0"
