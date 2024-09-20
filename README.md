@@ -1,7 +1,7 @@
 Snake Game CRUD Application
 
 Project Overview
-This project is a Snake Game CRUD (Create, Read, Update, Delete) application developed as part of my final project for [Course Name]. The application is built using Flask and Redis, containerized with Docker, and deployed on Azure Kubernetes Service (AKS) using Terraform and Helm. The project also includes a CI/CD pipeline implemented with Jenkins.
+This project is a Snake Game CRUD (Create, Read, Update, Delete) application developed as part of my final project. The application is built using Flask and Redis, containerized with Docker, and deployed on Azure Kubernetes Service (AKS) using Terraform and Helm. The project also includes a CI/CD pipeline implemented with Jenkins.
 
 Technologies Used
 - Python (Flask)
